@@ -1,0 +1,78 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+env/
+.venv/
+ENV/
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===============================
+# Data Files (keep raw data optional)
+# ===============================
+data/*.csv
+data/*.parquet
+data/*.json
+
+# (Uncomment below if you want to track raw data)
+# !data/diamonds.csv
+
+# ===============================
+# Model Artifacts
+# ===============================
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# ===============================
+# Logs & Outputs
+# ===============================
+*.log
+logs/
+outputs/
+results/
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Misc
+# ===============================
+*.tmp
+*.bak
+*.swp
+
